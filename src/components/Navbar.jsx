@@ -6,7 +6,7 @@ import {
   AiOutlineArrowRight,
 } from "react-icons/ai";
 import { BsFillHeartFill } from "react-icons/bs";
-import { IoCart } from "react-icons/io5";
+import { IoCart, IoPawSharp } from "react-icons/io5";
 
 const Navlinks = ["Home", "About", "Services", "Breeds", "Shop", "Gallery"];
 
@@ -24,8 +24,8 @@ const MainNavbar = ({ toggleSideBar }) => {
   return (
     <section className="w-full h-[102px] flex items-center justify-between px-12 lg:px-0 lg:justify-evenly">
       {/* //logo */}
-      <div className="w-[90px] h-[32px] text-center flex justify-center font-[700] text-[15px] uppercase leading-none">
-        your logo here
+      <div className="w-[90px] h-[32px] text-center flex items-center justify-center font-[900] text-[25px] uppercase leading-none gap-1">
+        paw <IoPawSharp />
       </div>
       {/* navlinks */}
       <ul className="hidden list-none text-[14px] lg:flex items-center lg:gap-5 xl:gap-12 h-full font-[700]">
@@ -91,8 +91,8 @@ const MobileMenu = ({ toggleSideBar }) => {
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between">
-          <div className="w-[90px] h-[32px] text-center flex justify-center font-[700] text-[15px] uppercase leading-none">
-            your logo here
+          <div className="w-[90px] h-[32px] text-center flex items-center justify-center font-[900] text-[25px] uppercase leading-none gap-1">
+            paw <IoPawSharp />
           </div>
           <div
             className="text-[18px] font-[600] text-[#007FFF] cursor-pointer"

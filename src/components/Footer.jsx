@@ -1,5 +1,7 @@
 import React from "react";
 
+import { IoPawSharp } from "react-icons/io5";
+
 import FooterOne from "../assets/footer/Footer1.png";
 import FooterTwo from "../assets/footer/Footer2.png";
 import FooterThree from "../assets/footer/Footer3.png";
@@ -30,9 +32,9 @@ const Footer = () => {
           {/* logo component */}
           <div className="xl:min-h-[150px] flex xl:items-center justify-between gap-2 xl:gap-10">
             <div className="basis-1/2 md:basis-[148px] shrink-0 flex items-center justify-center">
-              <h1 className="text-[18px] md:text-[24px] font-[700] text-center leading-[29px]">
-                Your Logo Here
-              </h1>
+              <div className="w-[90px] h-[32px] text-center flex items-center justify-center font-[900] text-[25px] uppercase leading-none gap-1">
+                paw <IoPawSharp />
+              </div>
             </div>
             <p className="h-full text-[13px] md:text-[18px] font-[500] basis-1/2 shrink-0 lg:min-w-[338px]">
               "City Pet House & Animal Clinic: Quality and affordable animal
